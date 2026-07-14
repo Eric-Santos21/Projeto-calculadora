@@ -7,3 +7,10 @@ function adicionarNumero(numero) {
   valorAtual = valorAtual.toString() + numero.toString();
   visor.value = valorAtual;
 }
+
+function escolherOperacao(op) {
+  if (valorAtual === '') return;
+  operacao = op;
+  valorAnterior = valorAtual;
+  valorAtual = '';
+}
