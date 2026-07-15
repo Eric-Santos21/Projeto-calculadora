@@ -65,3 +65,13 @@ button:active {
     background-color: #fff;
     color: #2c3e50;
 }
+
+@media (max-width: 400px) {
+    .calculadora {
+        width: 90%;
+    }
+    button {
+        padding: 10px;
+        font-size: 18px;
+    }
+}
