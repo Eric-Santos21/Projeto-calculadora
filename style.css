@@ -40,3 +40,15 @@ button:nth-child(4n), button:last-child {
     background-color: #e67e22;
     color: white;
 }
+
+button:hover {
+    background-color: #95a5a6;
+}
+
+button:nth-child(4n):hover, button:last-child:hover {
+    background-color: #d35400;
+}
+
+button:active {
+    transform: scale(0.95);
+}
