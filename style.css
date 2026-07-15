@@ -52,3 +52,16 @@ button:nth-child(4n):hover, button:last-child:hover {
 button:active {
     transform: scale(0.95);
 }
+
+#visor {
+    width: 100%;
+    height: 60px;
+    font-size: 28px;
+    text-align: right;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #bdc3c7;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #2c3e50;
+}
